@@ -3,24 +3,29 @@ import CardPageClient from "./CardPageClient";
 import cardsData from "@/data/cards.json";
 
 interface CardPageProps {
-  params: {
+  params: Promise<{
     id: string;
-  };
+  }>;
 }
 
-export default function CardPage(props: CardPageProps) {
-  const cardId = Number(props.params.id);
+export default async function CardPage({ params }: CardPageProps) {
+  const resolvedParams = await params;
+  const cardId = Number(resolvedParams.id);
 
   // Valid cards are 0-21
   if (isNaN(cardId) || cardId < 0 || cardId > 21) {
     notFound();
   }
 
-  return <CardPageClient {...props} />;
+  const card = cardsData.cards.find((c) => c.id === cardId);
+  if (!card) {
+    notFound();
+  }
+
+  return <CardPageClient card={card} />;
 }
 
 export function generateStaticParams() {
-  // Generate paths for cards 0-21
   return Array.from({ length: 22 }, (_, i) => ({
     id: i.toString(),
   }));

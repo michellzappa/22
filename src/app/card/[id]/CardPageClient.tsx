@@ -1,59 +1,54 @@
 "use client";
-import { notFound } from "next/navigation";
 import SlideLayout from "@/components/SlideLayout";
 import AlchemicalSymbol from "@/components/AlchemicalSymbol";
-import cardsData from "@/data/cards.json";
 import Image from "next/image";
 import { useDeckPreference } from "@/hooks/useDeckPreference";
-import { useEffect } from "react";
 
-interface CardPageProps {
-  params: {
-    id: string;
+interface CardPageClientProps {
+  card: {
+    id: number;
+    title: string;
+    description: string;
+    keywords: string[];
+    symbol: {
+      type: string;
+      name: string;
+    };
   };
 }
 
-export default function CardPageClient({ params }: CardPageProps) {
-  if (!params?.id) {
-    notFound();
-  }
-
-  const cardId = params.id.toString();
-  const card = cardsData.cards.find((c) => c.id === parseInt(cardId));
-  const totalCards = cardsData.cards.length;
-  const paddedId = cardId.padStart(2, "0");
-  const { currentDeck, toggleDeck } = useDeckPreference();
-
-  useEffect(() => {
-    const handleKeyDown = (event: KeyboardEvent) => {
-      if (event.key === "ArrowUp" || event.key === "ArrowDown") {
-        toggleDeck();
-      }
-    };
-
-    window.addEventListener("keydown", handleKeyDown);
-    return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [toggleDeck]);
-
-  if (!card) {
-    notFound();
-  }
+export default function CardPageClient({ card }: CardPageClientProps) {
+  const { currentDeck } = useDeckPreference();
+  const paddedId = String(card.id).padStart(2, "0");
 
   return (
-    <SlideLayout currentPath={`/card/${params.id}`}>
+    <SlideLayout currentPath={`/card/${card.id}`}>
       <div className="relative h-full">
         <div className="absolute top-0 right-0 text-[#F5F5F5]/60 text-sm">
-          {parseInt(cardId) + 1}/{totalCards}
+          {card.id}/22
         </div>
 
         <div className="flex gap-6 mb-6">
-          <Image
-            src={`/assets/cards/${currentDeck}/${paddedId}.webp`}
-            alt={card.title}
-            width={150}
-            height={260}
-            className="rounded-lg"
-          />
+          <div className="relative w-[150px] h-[260px]">
+            <Image
+              src={`/assets/cards/${currentDeck}/${paddedId}.webp`}
+              alt={card.title}
+              sizes="150px"
+              style={{
+                objectFit: "cover",
+                width: "100%",
+                height: "100%",
+                position: "absolute",
+                left: 0,
+                top: 0,
+                right: 0,
+                bottom: 0,
+              }}
+              className="rounded-lg"
+              fill
+              priority
+            />
+          </div>
           <div>
             <h1 className="text-4xl font-bold mb-4">{card.title}</h1>
             <p className="text-xl mb-6">{card.description}</p>

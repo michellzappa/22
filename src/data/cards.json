@@ -1,1 +1,334 @@
- 
+{
+    "cards": [
+        {
+            "id": 0,
+            "title": "The Fool",
+            "description": "...",
+            "keywords": [
+                "Carefree",
+                "Impulsive",
+                "Spontaneous",
+                "Wildcard"
+            ],
+            "symbol": {
+                "type": "element",
+                "name": "air"
+            }
+        },
+        {
+            "id": 1,
+            "title": "The Magician",
+            "description": "...",
+            "keywords": [
+                "Articulate",
+                "Confident",
+                "Convincing",
+                "Focused"
+            ],
+            "symbol": {
+                "type": "planet",
+                "name": "mercury"
+            }
+        },
+        {
+            "id": 2,
+            "title": "The High Priestess",
+            "description": "...",
+            "keywords": [
+                "Intuition",
+                "Recognition",
+                "Truth",
+                "Virtue"
+            ],
+            "symbol": {
+                "type": "planet",
+                "name": "moon"
+            }
+        },
+        {
+            "id": 3,
+            "title": "The Empress",
+            "description": "...",
+            "keywords": [
+                "Bountiful",
+                "Conceived",
+                "Mother",
+                "Plentiful"
+            ],
+            "symbol": {
+                "type": "planet",
+                "name": "venus"
+            }
+        },
+        {
+            "id": 4,
+            "title": "The Emperor",
+            "description": "...",
+            "keywords": [
+                "Authority",
+                "Builder",
+                "Established",
+                "Systematic"
+            ],
+            "symbol": {
+                "type": "zodiac",
+                "name": "aries"
+            }
+        },
+        {
+            "id": 5,
+            "title": "The Hierophant",
+            "description": "...",
+            "keywords": [
+                "Conformity",
+                "Dedication",
+                "Spiritual",
+                "Tradition"
+            ],
+            "symbol": {
+                "type": "zodiac",
+                "name": "taurus"
+            }
+        },
+        {
+            "id": 6,
+            "title": "The Lovers",
+            "description": "...",
+            "keywords": [
+                "Attraction",
+                "Mutual",
+                "Opposites",
+                "Partnerships"
+            ],
+            "symbol": {
+                "type": "zodiac",
+                "name": "gemini"
+            }
+        },
+        {
+            "id": 7,
+            "title": "The Chariot",
+            "description": "...",
+            "keywords": [
+                "Confidence",
+                "Efficiency",
+                "Resourceful",
+                "Swiftness"
+            ],
+            "symbol": {
+                "type": "zodiac",
+                "name": "cancer"
+            }
+        },
+        {
+            "id": 8,
+            "title": "Justice",
+            "description": "...",
+            "keywords": [
+                "Equilibrium",
+                "Eternal",
+                "Order",
+                "Virtue"
+            ],
+            "symbol": {
+                "type": "zodiac",
+                "name": "libra"
+            }
+        },
+        {
+            "id": 9,
+            "title": "The Hermit",
+            "description": "...",
+            "keywords": [
+                "Evaluation",
+                "Evolution",
+                "Opportunity",
+                "Time"
+            ],
+            "symbol": {
+                "type": "zodiac",
+                "name": "virgo"
+            }
+        },
+        {
+            "id": 10,
+            "title": "The Wheel of Fortune",
+            "description": "...",
+            "keywords": [
+                "Pilgrimage",
+                "Sage",
+                "Solitude",
+                "Witnessing"
+            ],
+            "symbol": {
+                "type": "planet",
+                "name": "jupiter"
+            }
+        },
+        {
+            "id": 11,
+            "title": "Strength",
+            "description": "...",
+            "keywords": [
+                "Challenging",
+                "Control",
+                "Discipline",
+                "Free Will"
+            ],
+            "symbol": {
+                "type": "zodiac",
+                "name": "leo"
+            }
+        },
+        {
+            "id": 12,
+            "title": "The Hanged Man",
+            "description": "...",
+            "keywords": [
+                "Inaction",
+                "Reversal",
+                "Turned",
+                "Unorthodox"
+            ],
+            "symbol": {
+                "type": "element",
+                "name": "water"
+            }
+        },
+        {
+            "id": 13,
+            "title": "Death",
+            "description": "...",
+            "keywords": [
+                "Closure",
+                "Liberation",
+                "Purification",
+                "Threshold"
+            ],
+            "symbol": {
+                "type": "zodiac",
+                "name": "scorpio"
+            }
+        },
+        {
+            "id": 14,
+            "title": "Temperance",
+            "description": "...",
+            "keywords": [
+                "Centered",
+                "Flowing",
+                "Fulfillment",
+                "Protector"
+            ],
+            "symbol": {
+                "type": "zodiac",
+                "name": "sagittarius"
+            }
+        },
+        {
+            "id": 15,
+            "title": "The Devil",
+            "description": "...",
+            "keywords": [
+                "Dependency",
+                "Doubt",
+                "Insecurities",
+                "Obsessions"
+            ],
+            "symbol": {
+                "type": "zodiac",
+                "name": "capricorn"
+            }
+        },
+        {
+            "id": 16,
+            "title": "The Tower",
+            "description": "...",
+            "keywords": [
+                "Delays",
+                "Disruption",
+                "Initiation",
+                "Vulnerability"
+            ],
+            "symbol": {
+                "type": "planet",
+                "name": "mars"
+            }
+        },
+        {
+            "id": 17,
+            "title": "The Star",
+            "description": "...",
+            "keywords": [
+                "Clarity",
+                "Hope",
+                "Prosperity",
+                "Signs"
+            ],
+            "symbol": {
+                "type": "zodiac",
+                "name": "aquarius"
+            }
+        },
+        {
+            "id": 18,
+            "title": "The Moon",
+            "description": "...",
+            "keywords": [
+                "Crossroads",
+                "Dreamscapes",
+                "Instinctual",
+                "Wonder"
+            ],
+            "symbol": {
+                "type": "zodiac",
+                "name": "pisces"
+            }
+        },
+        {
+            "id": 19,
+            "title": "The Sun",
+            "description": "...",
+            "keywords": [
+                "Adjustment",
+                "Brilliance",
+                "Healing",
+                "Light"
+            ],
+            "symbol": {
+                "type": "planet",
+                "name": "sun"
+            }
+        },
+        {
+            "id": 20,
+            "title": "Judgement",
+            "description": "...",
+            "keywords": [
+                "Emerging",
+                "Evolution",
+                "Surfacing",
+                "Truth"
+            ],
+            "symbol": {
+                "type": "element",
+                "name": "fire"
+            }
+        },
+        {
+            "id": 21,
+            "title": "The World",
+            "description": "...",
+            "keywords": [
+                "Discovery",
+                "Freedom",
+                "Harmony",
+                "Wholeness"
+            ],
+            "symbol": {
+                "type": "planet",
+                "name": "saturn"
+            }
+        }
+    ]
+}

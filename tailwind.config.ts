@@ -9,9 +9,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
+        background: '#121212',
+        foreground: '#F5F5F5',
+        'button-bg': '#2A2A2A',
+        'button-hover': '#3A3A3A',
+      }
     },
   },
   plugins: [],

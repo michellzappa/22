@@ -4,6 +4,19 @@ import slidesData from "@/data/slides.json";
 import CardPageClient from "@/components/CardPageClient";
 import dynamic from "next/dynamic";
 
+interface CardMetadata {
+  id: number;
+  title: string;
+  description: string;
+  keywords: string[];
+  symbol: {
+    type: "element" | "planet" | "zodiac";
+    name: string;
+  };
+  characteristics?: string[];
+  journey: string[];
+}
+
 interface SlidePageProps {
   params: {
     type: string;
@@ -27,17 +40,12 @@ export default async function SlidePage({ params }: SlidePageProps) {
 
   let content;
   if (slide.type === "card") {
-    const cardData = await import("@/data/cards.json");
-    const card = cardData.cards.find((c) => c.id === slide.cardId);
-
-    if (!card) {
-      content = <div>Card not found</div>;
+    if (!slide.metadata) {
+      content = <div>Card metadata not found</div>;
+    } else if (!isValidSymbolType(slide.metadata.symbol.type)) {
+      content = <div>Invalid card symbol type</div>;
     } else {
-      if (isValidSymbolType(card.symbol.type)) {
-        content = <CardPageClient card={card} />;
-      } else {
-        content = <div>Invalid card symbol type</div>;
-      }
+      content = <CardPageClient card={slide.metadata as CardMetadata} />;
     }
   } else {
     const SlideComponent = dynamic(() =>

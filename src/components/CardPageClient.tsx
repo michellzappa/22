@@ -15,7 +15,8 @@ interface CardPageClientProps {
       type: "element" | "planet" | "zodiac";
       name: string;
     };
-    journey?: string[];
+    characteristics?: string[];
+    journey: string[];
   };
 }
 

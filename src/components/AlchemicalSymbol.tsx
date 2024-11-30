@@ -16,7 +16,7 @@ export default function AlchemicalSymbol({
   const [svgContent, setSvgContent] = useState<string>("");
 
   useEffect(() => {
-    fetch(`/assets/symbols/${type}s/${name}.svg`)
+    fetch(`/22/assets/symbols/${type}s/${name}.svg`)
       .then((res) => res.text())
       .then((svg) => {
         // Remove any existing fill attributes and add our class

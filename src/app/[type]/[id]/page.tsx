@@ -18,20 +18,17 @@ interface CardMetadata {
   journey: string[];
 }
 
-interface SlidePageProps {
-  params: {
-    type: string;
-    id: string;
-  };
-}
-
 function isValidSymbolType(
   type: string
 ): type is "element" | "planet" | "zodiac" {
   return ["element", "planet", "zodiac"].includes(type);
 }
 
-export default async function SlidePage({ params }: SlidePageProps) {
+export default function SlidePage({
+  params,
+}: {
+  params: { type: string; id: string };
+}) {
   console.log("Rendering page with params:", params);
 
   const paddedId =
@@ -77,10 +74,28 @@ export default async function SlidePage({ params }: SlidePageProps) {
         { ssr: true }
       );
       content = (
-        <>
-          <h1 className="text-4xl font-bold mb-4">{slide.title}</h1>
-          <SlideComponent />
-        </>
+        <div className="flex flex-col gap-4">
+          <h1 className="text-4xl font-bold">{slide.title}</h1>
+          <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
+            <div className="absolute top-0 left-0 w-full h-full border-2 border-gray-500">
+              <SlideComponent />
+            </div>
+          </div>
+          {slide.notes && (
+            <div className="mt-4 p-4 rounded-lg bg-gray-100/10">
+              <h2 className="text-xl font-semibold mb-2">Notes</h2>
+              {slide.notes.split("\n").map((paragraph, index) =>
+                paragraph.length > 0 ? (
+                  <p key={index} className="mb-4 last:mb-0">
+                    {paragraph}
+                  </p>
+                ) : (
+                  <br key={index} />
+                )
+              )}
+            </div>
+          )}
+        </div>
       );
     } catch (error) {
       console.error("Error in dynamic import:", error);

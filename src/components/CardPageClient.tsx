@@ -28,7 +28,7 @@ export default function CardPageClient({ card }: CardPageClientProps) {
   useEffect(() => {
     const preloadImage = (deck: string) => {
       const img = document.createElement("img");
-      img.src = `/assets/cards/${deck}/${paddedId}.webp`;
+      img.src = `/22/assets/cards/${deck}/${paddedId}.webp`;
     };
 
     preloadImage("rws");
@@ -45,7 +45,7 @@ export default function CardPageClient({ card }: CardPageClientProps) {
         <div className="flex gap-6 mb-6">
           <div className="relative w-[200px] h-[348px] flex-shrink-0">
             <Image
-              src={`/assets/cards/${currentDeck}/${paddedId}.webp`}
+              src={`/22/assets/cards/${currentDeck}/${paddedId}.webp`}
               alt={card.title}
               sizes="200px"
               style={{

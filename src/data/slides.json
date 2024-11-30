@@ -1,22 +1,19 @@
 {
     "slides": [
         {
-            "id": "intro-1",
+            "id": "intro-01",
             "type": "intro",
-            "title": "Introduction",
-            "component": "01"
+            "title": "The Architecture of the Self"
         },
         {
-            "id": "intro-2",
+            "id": "intro-02",
             "type": "intro",
-            "title": "Overview",
-            "component": "02"
+            "title": "Overview"
         },
         {
-            "id": "intro-3",
+            "id": "intro-03",
             "type": "intro",
-            "title": "The Fool's Journey",
-            "component": "03"
+            "title": "The Fool's Journey"
         },
         {
             "id": "card-0",
@@ -701,13 +698,13 @@
             }
         },
         {
-            "id": "outro-1",
+            "id": "outro-01",
             "type": "outro",
             "title": "Thank You",
             "component": "40"
         },
         {
-            "id": "outro-2",
+            "id": "outro-02",
             "type": "outro",
             "title": "Questions?",
             "component": "41"

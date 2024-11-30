@@ -8,10 +8,65 @@
         {
             "id": "intro-02",
             "type": "intro",
-            "title": "Overview"
+            "title": "8 Dec 2021"
         },
         {
             "id": "intro-03",
+            "type": "intro",
+            "title": "Archetypes & Psyche"
+        },
+        {
+            "id": "intro-04",
+            "type": "intro",
+            "title": "Self-development & Self-discovery"
+        },
+        {
+            "id": "intro-05",
+            "type": "intro",
+            "title": "The Hero's Journey"
+        },
+        {
+            "id": "intro-06",
+            "type": "intro",
+            "title": "The Monomyth"
+        },
+        {
+            "id": "intro-07",
+            "type": "intro",
+            "title": "Windows into our Psyche"
+        },
+        {
+            "id": "intro-08",
+            "type": "intro",
+            "title": "Tarot History"
+        },
+        {
+            "id": "intro-09",
+            "type": "intro",
+            "title": "Archetypes and Leadership"
+        },
+        {
+            "id": "intro-10",
+            "type": "intro",
+            "title": "Read Card"
+        },
+        {
+            "id": "intro-11",
+            "type": "intro",
+            "title": "Framework"
+        },
+        {
+            "id": "intro-12",
+            "type": "intro",
+            "title": "3 Worlds"
+        },
+        {
+            "id": "intro-13",
+            "type": "intro",
+            "title": "7 Dimensions"
+        },
+        {
+            "id": "intro-14",
             "type": "intro",
             "title": "The Fool's Journey"
         },
@@ -700,14 +755,52 @@
         {
             "id": "outro-01",
             "type": "outro",
-            "title": "Thank You",
-            "component": "40"
+            "title": "The Eternal Cycle"
         },
         {
             "id": "outro-02",
             "type": "outro",
-            "title": "Questions?",
-            "component": "41"
+            "title": "Ouroboros"
+        },
+        {
+            "id": "outro-03",
+            "type": "outro",
+            "title": "Conflicts"
+        },
+        {
+            "id": "outro-04",
+            "type": "outro",
+            "title": "Your Choice"
+        },
+        {
+            "id": "outro-05",
+            "type": "outro",
+            "title": "Using Archetypes"
+        },
+        {
+            "id": "outro-06",
+            "type": "outro",
+            "title": "Reading"
+        },
+        {
+            "id": "outro-07",
+            "type": "outro",
+            "title": "As Above So Below"
+        },
+        {
+            "id": "outro-08",
+            "type": "outro",
+            "title": "Bibliography"
+        },
+        {
+            "id": "outro-09",
+            "type": "outro",
+            "title": "Contact"
+        },
+        {
+            "id": "outro-10",
+            "type": "outro",
+            "title": "Vocabulary"
         }
     ]
 }

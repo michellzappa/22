@@ -6,7 +6,6 @@ import {
   useEffect,
   ReactNode,
 } from "react";
-import { useRouter } from "next/navigation";
 
 type DeckType = "rws" | "gptarot";
 
@@ -21,7 +20,6 @@ const DeckPreferenceContext = createContext<
 
 export function DeckPreferenceProvider({ children }: { children: ReactNode }) {
   const [currentDeck, setCurrentDeck] = useState<DeckType>("rws");
-  const router = useRouter();
 
   useEffect(() => {
     const savedDeck = localStorage.getItem("preferredDeck") as DeckType;
@@ -30,12 +28,16 @@ export function DeckPreferenceProvider({ children }: { children: ReactNode }) {
     }
   }, []);
 
+  const toggleDeck = () => {
+    const newDeck = currentDeck === "rws" ? "gptarot" : "rws";
+    setCurrentDeck(newDeck);
+    localStorage.setItem("preferredDeck", newDeck);
+  };
+
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.key === "ArrowUp" || event.key === "ArrowDown") {
-        const newDeck = currentDeck === "rws" ? "gptarot" : "rws";
-        setCurrentDeck(newDeck);
-        localStorage.setItem("preferredDeck", newDeck);
+        toggleDeck();
       }
     };
 
@@ -44,9 +46,7 @@ export function DeckPreferenceProvider({ children }: { children: ReactNode }) {
   }, [currentDeck]);
 
   return (
-    <DeckPreferenceContext.Provider
-      value={{ currentDeck, toggleDeck: () => {} }}
-    >
+    <DeckPreferenceContext.Provider value={{ currentDeck, toggleDeck }}>
       {children}
     </DeckPreferenceContext.Provider>
   );

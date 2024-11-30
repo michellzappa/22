@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import CardPageClient from "./CardPageClient";
+import CardPageClient from "../../../components/CardPageClient";
 import cardsData from "@/data/cards.json";
 
 interface CardPageProps {

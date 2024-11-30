@@ -3,7 +3,7 @@
         {
             "id": 0,
             "title": "The Fool",
-            "description": "...",
+            "description": "The protagonist and central character; represents the soul beginning its journey through life with innocent faith and openness to experience.",
             "keywords": [
                 "Carefree",
                 "Impulsive",
@@ -13,12 +13,24 @@
             "symbol": {
                 "type": "element",
                 "name": "air"
-            }
+            },
+            "characteristics": [
+                "Innocence",
+                "Spontaneity",
+                "New beginnings",
+                "Purity",
+                "Fearlessness"
+            ],
+            "journey": [
+                "Symbolizes the journey of self-discovery.",
+                "Can represent the undeveloped aspect of the psyche (inferior function).",
+                "Often acts as a trickster or catalyst for change."
+            ]
         },
         {
             "id": 1,
             "title": "The Magician",
-            "description": "...",
+            "description": "First teacher who shows the Fool his potential and the tools (four elements) available for creating his future.",
             "keywords": [
                 "Articulate",
                 "Confident",
@@ -28,12 +40,24 @@
             "symbol": {
                 "type": "planet",
                 "name": "mercury"
-            }
+            },
+            "characteristics": [
+                "Action",
+                "Consciousness",
+                "Willpower",
+                "Skill",
+                "Concentration"
+            ],
+            "journey": [
+                "Initiates the journey of transformation.",
+                "Acts as a creator and a revealer of truth.",
+                "Can also represent the potential for both good and evil."
+            ]
         },
         {
             "id": 2,
             "title": "The High Priestess",
-            "description": "...",
+            "description": "Second teacher who reveals the importance of inner wisdom and spiritual mysteries; shows there's more beneath the surface.",
             "keywords": [
                 "Intuition",
                 "Recognition",
@@ -43,12 +67,23 @@
             "symbol": {
                 "type": "planet",
                 "name": "moon"
-            }
+            },
+            "characteristics": [
+                "Intuition",
+                "Mystery",
+                "Inner knowledge",
+                "Unconscious wisdom"
+            ],
+            "journey": [
+                "Guards the mysteries of the unconscious.",
+                "Acts as a guide and protector.",
+                "Embodies the wisdom of the feminine principle."
+            ]
         },
         {
             "id": 3,
             "title": "The Empress",
-            "description": "...",
+            "description": "Represents motherly nurturing and natural growth; teaches the Fool about patience and allowing things to develop naturally.",
             "keywords": [
                 "Bountiful",
                 "Conceived",
@@ -58,12 +93,24 @@
             "symbol": {
                 "type": "planet",
                 "name": "venus"
-            }
+            },
+            "characteristics": [
+                "Nurturing",
+                "Fertility",
+                "Abundance",
+                "Nature",
+                "Growth"
+            ],
+            "journey": [
+                "Enacts and fulfills prophecy.",
+                "Provides for the needs of the hero.",
+                "Embodies the fertile power of nature."
+            ]
         },
         {
             "id": 4,
             "title": "The Emperor",
-            "description": "...",
+            "description": "Provides structure and rules to the Fool's world; teaches about boundaries, discipline, and the importance of order.",
             "keywords": [
                 "Authority",
                 "Builder",
@@ -73,12 +120,24 @@
             "symbol": {
                 "type": "zodiac",
                 "name": "aries"
-            }
+            },
+            "characteristics": [
+                "Authority",
+                "Structure",
+                "Stability",
+                "Leadership",
+                "Discipline"
+            ],
+            "journey": [
+                "Brings order to the chaos of the Empress's garden.",
+                "Establishes laws and boundaries.",
+                "Symbolizes the development of human civilization."
+            ]
         },
         {
             "id": 5,
             "title": "The Hierophant",
-            "description": "...",
+            "description": "Introduces the Fool to formal education, societal traditions, and organized belief systems.",
             "keywords": [
                 "Conformity",
                 "Dedication",
@@ -88,12 +147,24 @@
             "symbol": {
                 "type": "zodiac",
                 "name": "taurus"
-            }
+            },
+            "characteristics": [
+                "Tradition",
+                "Conventional wisdom",
+                "Religious guidance",
+                "Spiritual guidance",
+                "Education"
+            ],
+            "journey": [
+                "Guides the hero on his spiritual journey.",
+                "Provides moral and spiritual teachings.",
+                "Embodies the patriarchal aspect of religion."
+            ]
         },
         {
             "id": 6,
             "title": "The Lovers",
-            "description": "...",
+            "description": "Presents the Fool with major life choices and the experience of relationship; teaches about integration of opposites.",
             "keywords": [
                 "Attraction",
                 "Mutual",
@@ -103,12 +174,24 @@
             "symbol": {
                 "type": "zodiac",
                 "name": "gemini"
-            }
+            },
+            "characteristics": [
+                "Choice",
+                "Relationships",
+                "Union",
+                "Duality",
+                "Harmony"
+            ],
+            "journey": [
+                "Faces the conflict of choosing between different paths.",
+                "Represents the development of the ego and its relationships.",
+                "Embodies the challenges and rewards of love."
+            ]
         },
         {
             "id": 7,
             "title": "The Chariot",
-            "description": "...",
+            "description": "Represents the Fool's first major achievement through discipline and willpower; mastery over the material world.",
             "keywords": [
                 "Confidence",
                 "Efficiency",
@@ -118,12 +201,24 @@
             "symbol": {
                 "type": "zodiac",
                 "name": "cancer"
-            }
+            },
+            "characteristics": [
+                "Victory",
+                "Willpower",
+                "Determination",
+                "Control",
+                "Direction"
+            ],
+            "journey": [
+                "Carries the hero forward on his quest.",
+                "Demonstrates the need for balance and direction.",
+                "Embodies the power of the will."
+            ]
         },
         {
             "id": 8,
             "title": "Justice",
-            "description": "...",
+            "description": "Helps the Fool understand the consequences of actions and the importance of truth and fairness.",
             "keywords": [
                 "Equilibrium",
                 "Eternal",
@@ -133,12 +228,23 @@
             "symbol": {
                 "type": "zodiac",
                 "name": "libra"
-            }
+            },
+            "characteristics": [
+                "Balance",
+                "Truth",
+                "Cause and effect",
+                "Karma"
+            ],
+            "journey": [
+                "Guides the hero in making ethical choices.",
+                "Weighs the consequences of actions.",
+                "Embodies the principle of karma."
+            ]
         },
         {
             "id": 9,
             "title": "The Hermit",
-            "description": "...",
+            "description": "Guides the Fool to look inward and seek deeper meaning; represents spiritual self-discovery.",
             "keywords": [
                 "Evaluation",
                 "Evolution",
@@ -148,12 +254,23 @@
             "symbol": {
                 "type": "zodiac",
                 "name": "virgo"
-            }
+            },
+            "characteristics": [
+                "Introspection",
+                "Solitude",
+                "Inner guidance",
+                "Wisdom"
+            ],
+            "journey": [
+                "Guides the hero on his inner journey.",
+                "Offers wisdom and insight.",
+                "Embodies the search for inner truth."
+            ]
         },
         {
             "id": 10,
             "title": "The Wheel of Fortune",
-            "description": "...",
+            "description": "Teaches the Fool about life's cycles and the interconnectedness of all things; represents destiny and change.",
             "keywords": [
                 "Pilgrimage",
                 "Sage",
@@ -163,12 +280,23 @@
             "symbol": {
                 "type": "planet",
                 "name": "jupiter"
-            }
+            },
+            "characteristics": [
+                "Cycles",
+                "Destiny",
+                "Turning points",
+                "Change"
+            ],
+            "journey": [
+                "Teaches the hero about the nature of change.",
+                "Demonstrates the impermanence of all things.",
+                "Embodies the idea of karma and the law of cycles."
+            ]
         },
         {
             "id": 11,
             "title": "Strength",
-            "description": "...",
+            "description": "Shows the Fool how to tame inner beasts through patience and gentle strength rather than force.",
             "keywords": [
                 "Challenging",
                 "Control",
@@ -178,12 +306,23 @@
             "symbol": {
                 "type": "zodiac",
                 "name": "leo"
-            }
+            },
+            "characteristics": [
+                "Inner strength",
+                "Patience",
+                "Compassion",
+                "Gentle power"
+            ],
+            "journey": [
+                "Helps the hero to overcome his fears and weaknesses.",
+                "Demonstrates the power of compassion and understanding.",
+                "Embodies the integration of primal instincts."
+            ]
         },
         {
             "id": 12,
             "title": "The Hanged Man",
-            "description": "...",
+            "description": "Shows the Fool the power of letting go and seeing things from a different perspective.",
             "keywords": [
                 "Inaction",
                 "Reversal",
@@ -193,12 +332,23 @@
             "symbol": {
                 "type": "element",
                 "name": "water"
-            }
+            },
+            "characteristics": [
+                "Surrender",
+                "Letting go",
+                "New perspective",
+                "Sacrifice"
+            ],
+            "journey": [
+                "Guides the hero through periods of change and loss.",
+                "Represents the process of letting go.",
+                "Embodies the inevitability of transformation."
+            ]
         },
         {
             "id": 13,
             "title": "Death",
-            "description": "...",
+            "description": "Represents major transformation and the death of old ways to make room for new growth.",
             "keywords": [
                 "Closure",
                 "Liberation",
@@ -208,12 +358,23 @@
             "symbol": {
                 "type": "zodiac",
                 "name": "scorpio"
-            }
+            },
+            "characteristics": [
+                "Transformation",
+                "Endings",
+                "Rebirth",
+                "Inevitable change"
+            ],
+            "journey": [
+                "Helps the hero to find balance and harmony.",
+                "Facilitates the process of healing and integration.",
+                "Embodies the alchemical process of transformation."
+            ]
         },
         {
             "id": 14,
             "title": "Temperance",
-            "description": "...",
+            "description": "Teaches the Fool about finding middle ground and integrating opposing forces.",
             "keywords": [
                 "Centered",
                 "Flowing",
@@ -223,12 +384,23 @@
             "symbol": {
                 "type": "zodiac",
                 "name": "sagittarius"
-            }
+            },
+            "characteristics": [
+                "Balance",
+                "Moderation",
+                "Harmony",
+                "Integration"
+            ],
+            "journey": [
+                "Tests the hero's resolve and moral compass.",
+                "Represents the shadow side of human nature.",
+                "Embodies the dangers of addiction and materialism."
+            ]
         },
         {
             "id": 15,
             "title": "The Devil",
-            "description": "...",
+            "description": "Confronts the Fool with his own limitations and attachments; represents inner bondage.",
             "keywords": [
                 "Dependency",
                 "Doubt",
@@ -238,12 +410,23 @@
             "symbol": {
                 "type": "zodiac",
                 "name": "capricorn"
-            }
+            },
+            "characteristics": [
+                "Bondage",
+                "Materialism",
+                "Ignorance",
+                "Shadow self"
+            ],
+            "journey": [
+                "Forces the hero to confront his limitations and illusions.",
+                "Represents a necessary stage of transformation.",
+                "Embodies the process of breakdown and breakthrough."
+            ]
         },
         {
             "id": 16,
             "title": "The Tower",
-            "description": "...",
+            "description": "Destroys false structures in the Fool's life; represents breakthrough through breakdown.",
             "keywords": [
                 "Delays",
                 "Disruption",
@@ -253,12 +436,23 @@
             "symbol": {
                 "type": "planet",
                 "name": "mars"
-            }
+            },
+            "characteristics": [
+                "Sudden change",
+                "Revelation",
+                "Breakthrough",
+                "Upheaval"
+            ],
+            "journey": [
+                "Guides the hero towards healing and renewal.",
+                "Offers inspiration and hope.",
+                "Embodies the connection to the transpersonal realm."
+            ]
         },
         {
             "id": 17,
             "title": "The Star",
-            "description": "...",
+            "description": "Offers healing and hope after destruction; represents divine inspiration and faith.",
             "keywords": [
                 "Clarity",
                 "Hope",
@@ -268,12 +462,23 @@
             "symbol": {
                 "type": "zodiac",
                 "name": "aquarius"
-            }
+            },
+            "characteristics": [
+                "Hope",
+                "Inspiration",
+                "Serenity",
+                "Renewal"
+            ],
+            "journey": [
+                "Guides the hero through the shadowy realm of the unconscious.",
+                "Tests his courage and intuition.",
+                "Embodies the mysteries of the inner world."
+            ]
         },
         {
             "id": 18,
             "title": "The Moon",
-            "description": "...",
+            "description": "Tests the Fool with illusions and fears; represents facing the unknown.",
             "keywords": [
                 "Crossroads",
                 "Dreamscapes",
@@ -283,12 +488,23 @@
             "symbol": {
                 "type": "zodiac",
                 "name": "pisces"
-            }
+            },
+            "characteristics": [
+                "Illusion",
+                "Intuition",
+                "Unconscious",
+                "Dreams"
+            ],
+            "journey": [
+                "Brings warmth and illumination to the hero's journey.",
+                "Represents the achievement of wholeness and integration.",
+                "Embodies the power of the self."
+            ]
         },
         {
             "id": 19,
             "title": "The Sun",
-            "description": "...",
+            "description": "Brings illumination and clarity; represents achievement and living authentically.",
             "keywords": [
                 "Adjustment",
                 "Brilliance",
@@ -298,12 +514,23 @@
             "symbol": {
                 "type": "planet",
                 "name": "sun"
-            }
+            },
+            "characteristics": [
+                "Joy",
+                "Clarity",
+                "Success",
+                "Vitality"
+            ],
+            "journey": [
+                "Calls the hero to embrace his true calling.",
+                "Represents a spiritual awakening and transformation.",
+                "Embodies the process of individuation."
+            ]
         },
         {
             "id": 20,
             "title": "Judgement",
-            "description": "...",
+            "description": "Calls the Fool to his higher purpose; represents spiritual awakening.",
             "keywords": [
                 "Emerging",
                 "Evolution",
@@ -313,12 +540,23 @@
             "symbol": {
                 "type": "element",
                 "name": "fire"
-            }
+            },
+            "characteristics": [
+                "Awakening",
+                "Rebirth",
+                "Inner calling",
+                "Absolution"
+            ],
+            "journey": [
+                "Represents the culmination of the hero's journey.",
+                "Symbolizes the union of the individual with the divine.",
+                "Embodies the state of enlightenment and liberation."
+            ]
         },
         {
             "id": 21,
             "title": "The World",
-            "description": "...",
+            "description": "Represents the successful completion of the journey and integration of all lessons.",
             "keywords": [
                 "Discovery",
                 "Freedom",
@@ -328,7 +566,18 @@
             "symbol": {
                 "type": "planet",
                 "name": "saturn"
-            }
+            },
+            "characteristics": [
+                "Completion",
+                "Integration",
+                "Accomplishment",
+                "Wholeness"
+            ],
+            "journey": [
+                "Represents the culmination of the hero's journey.",
+                "Symbolizes the union of the individual with the divine.",
+                "Embodies the state of enlightenment and liberation."
+            ]
         }
     ]
 }

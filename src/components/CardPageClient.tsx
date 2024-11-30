@@ -3,6 +3,7 @@ import SlideLayout from "@/components/SlideLayout";
 import AlchemicalSymbol from "@/components/AlchemicalSymbol";
 import Image from "next/image";
 import { useDeckPreference } from "@/hooks/useDeckPreference";
+import { useEffect } from "react";
 
 interface CardPageClientProps {
   card: {
@@ -11,9 +12,10 @@ interface CardPageClientProps {
     description: string;
     keywords: string[];
     symbol: {
-      type: string;
+      type: "element" | "planet" | "zodiac";
       name: string;
     };
+    journey?: string[];
   };
 }
 
@@ -21,37 +23,50 @@ export default function CardPageClient({ card }: CardPageClientProps) {
   const { currentDeck } = useDeckPreference();
   const paddedId = String(card.id).padStart(2, "0");
 
+  // Preload both deck images
+  useEffect(() => {
+    const preloadImage = (deck: string) => {
+      const img = document.createElement("img");
+      img.src = `/assets/cards/${deck}/${paddedId}.webp`;
+    };
+
+    preloadImage("rws");
+    preloadImage("gptarot");
+  }, [paddedId]);
+
   return (
     <SlideLayout currentPath={`/card/${card.id}`}>
       <div className="relative h-full">
         <div className="absolute top-0 right-0 text-[#F5F5F5]/60 text-sm">
-          {card.id}/22
+          {card.id}/21
         </div>
 
         <div className="flex gap-6 mb-6">
-          <div className="relative w-[150px] h-[260px]">
+          <div className="relative w-[200px] h-[348px] flex-shrink-0">
             <Image
               src={`/assets/cards/${currentDeck}/${paddedId}.webp`}
               alt={card.title}
-              sizes="150px"
+              sizes="200px"
               style={{
-                objectFit: "cover",
-                width: "100%",
-                height: "100%",
-                position: "absolute",
-                left: 0,
-                top: 0,
-                right: 0,
-                bottom: 0,
+                objectFit: "contain",
               }}
-              className="rounded-lg"
+              className="rounded-lg transition-opacity duration-300"
               fill
               priority
             />
           </div>
-          <div>
+          <div className="flex-1">
             <h1 className="text-4xl font-bold mb-4">{card.title}</h1>
             <p className="text-xl mb-6">{card.description}</p>
+            {card.journey && (
+              <ul className="list-disc list-inside mb-6 space-y-2">
+                {card.journey.map((step, index) => (
+                  <li key={index} className="text-lg text-[#F5F5F5]/80">
+                    {step}
+                  </li>
+                ))}
+              </ul>
+            )}
           </div>
         </div>
 

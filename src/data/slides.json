@@ -1,0 +1,40 @@
+{
+    "slides": [
+        {
+            "id": "intro-1",
+            "type": "intro",
+            "title": "Introduction",
+            "component": "01"
+        },
+        {
+            "id": "intro-2",
+            "type": "intro",
+            "title": "Overview",
+            "component": "02"
+        },
+        {
+            "id": "intro-3",
+            "type": "intro",
+            "title": "The Fool's Journey",
+            "component": "03"
+        },
+        {
+            "id": "card-0",
+            "type": "card",
+            "title": "The Fool",
+            "cardId": 0
+        },
+        {
+            "id": "outro-1",
+            "type": "outro",
+            "title": "Thank You",
+            "component": "21"
+        },
+        {
+            "id": "outro-2",
+            "type": "outro",
+            "title": "Questions?",
+            "component": "22"
+        }
+    ]
+}

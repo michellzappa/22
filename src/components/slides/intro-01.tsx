@@ -4,10 +4,6 @@ const IntroSlide01: React.FC = () => {
   return (
     <div className="flex flex-col items-center justify-center w-full h-full bg-background text-foreground">
       <div className="max-w-[90%] w-full space-y-4 text-center">
-        <h1 className="text-5xl font-serif tracking-wide mb-2">
-          The Architecture of the Self
-        </h1>
-
         <div className="w-2/5 mx-auto my-2">
           <GeometricPattern />
         </div>

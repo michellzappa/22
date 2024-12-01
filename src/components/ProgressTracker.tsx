@@ -10,14 +10,17 @@ export default function ProgressTracker({
   totalSlides,
 }: ProgressTrackerProps) {
   return (
-    <div className="w-full h-1 bg-[#F5F5F5]/10 mb-6 relative">
-      <div
-        className="absolute top-1/2 -translate-y-1/2 w-2 h-2 bg-[#F5F5F5] rounded-full"
-        style={{
-          left: `${(currentIndex / (totalSlides - 1)) * 100}%`,
-          transition: "left 0.3s ease-in-out",
-        }}
-      />
+    <div className="w-full flex justify-center items-center gap-3 mb-6 pt-8">
+      {Array.from({ length: totalSlides }, (_, index) => (
+        <div
+          key={index}
+          className={`w-2 aspect-square rounded-full transition-opacity duration-300 ${
+            index === currentIndex
+              ? "bg-[#F5F5F5] opacity-100"
+              : "bg-[#F5F5F5] opacity-20"
+          }`}
+        />
+      ))}
     </div>
   );
 }

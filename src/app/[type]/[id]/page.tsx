@@ -55,7 +55,12 @@ export default function SlidePage({
     } else if (!isValidSymbolType(slide.metadata.symbol.type)) {
       content = <div>Invalid card symbol type</div>;
     } else {
-      content = <CardPageClient card={slide.metadata as CardMetadata} />;
+      content = (
+        <CardPageClient
+          card={slide.metadata as CardMetadata}
+          showTitle={false}
+        />
+      );
     }
   } else {
     console.log("Loading dynamic component for slide:", slide.id);
@@ -74,9 +79,9 @@ export default function SlidePage({
         { ssr: true }
       );
       content = (
-        <div className="flex flex-col gap-4 w-full">
-          <div className="relative w-full aspect-video">
-            <div className="absolute inset-0">
+        <div className="flex flex-col gap-4">
+          <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
+            <div className="absolute top-0 left-0 w-full h-full border border-white">
               <SlideComponent />
             </div>
           </div>
@@ -110,6 +115,7 @@ export default function SlidePage({
         currentIndex={currentIndex}
         totalSlides={slidesData.slides.length}
       />
+      <h1 className="text-4xl font-bold text-center mb-8">{slide.title}</h1>
       {content}
     </SlideLayout>
   );

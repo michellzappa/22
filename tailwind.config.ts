@@ -18,6 +18,15 @@ export default {
         serif: ['Georgia', 'serif'],
         sans: ['system-ui', 'sans-serif'],
       },
+      animation: {
+        'fadeIn': 'fadeIn 0.5s ease-out forwards',
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '0.5' },
+        },
+      },
     },
   },
   plugins: [],

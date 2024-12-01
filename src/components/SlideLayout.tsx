@@ -16,7 +16,7 @@ export default function SlideLayout({
 
   return (
     <div className="min-h-screen bg-[#121212] text-[#F5F5F5]">
-      <div className="w-full max-w-4xl p-8 mx-auto">{children}</div>
+      <div className="w-full max-w-4xl mx-auto">{children}</div>
     </div>
   );
 }

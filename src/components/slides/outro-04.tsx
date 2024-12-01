@@ -1,17 +1,16 @@
 import { FC } from "react";
+import Image from "next/image";
 
 const Introduction: FC = () => {
   return (
-    <div className="space-y-6">
-      <p className="text-xl">
-        Welcome to our exploration of the Tarot's major arcana. This journey
-        will take us through 22 cards that represent universal aspects of human
-        experience.
-      </p>
-      <p className="text-xl">
-        Each card tells a story, and together they form a complete narrative of
-        psychological and spiritual development.
-      </p>
+    <div className="flex items-center justify-center h-full">
+      <Image
+        src="/22/slides/outro-04.svg"
+        alt="Tarot Journey"
+        width={400}
+        height={400}
+        className="max-w-full h-auto"
+      />
     </div>
   );
 };

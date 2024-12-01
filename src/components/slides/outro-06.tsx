@@ -1,19 +1,35 @@
-import { FC } from "react";
+"use client";
 
-const Introduction: FC = () => {
+import { FC } from "react";
+import Image from "next/image";
+import { AnimatePresence, motion } from "framer-motion";
+
+const Intro02: FC = () => {
   return (
-    <div className="space-y-6">
-      <p className="text-xl">
-        Welcome to our exploration of the Tarot's major arcana. This journey
-        will take us through 22 cards that represent universal aspects of human
-        experience.
-      </p>
-      <p className="text-xl">
-        Each card tells a story, and together they form a complete narrative of
-        psychological and spiritual development.
-      </p>
+    <div className="h-full w-full relative">
+      <AnimatePresence>
+        <motion.div
+          initial={{ scale: 0.8, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
+          exit={{ scale: 0.8, opacity: 0 }}
+          transition={{
+            type: "spring",
+            duration: 0.6,
+            bounce: 0.4,
+          }}
+          style={{ width: "100%", height: "100%" }}
+        >
+          <Image
+            src="/22/slides/outro-06.webp"
+            alt="Reading Tarot"
+            fill
+            className="object-contain"
+            priority
+          />
+        </motion.div>
+      </AnimatePresence>
     </div>
   );
 };
 
-export default Introduction;
+export default Intro02;

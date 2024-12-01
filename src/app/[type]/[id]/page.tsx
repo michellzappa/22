@@ -59,6 +59,7 @@ export default function SlidePage({
         <CardPageClient
           card={slide.metadata as CardMetadata}
           showTitle={false}
+          notes={slide.notes}
         />
       );
     }
@@ -115,7 +116,11 @@ export default function SlidePage({
         currentIndex={currentIndex}
         totalSlides={slidesData.slides.length}
       />
-      <h1 className="text-4xl font-bold text-center mb-8">{slide.title}</h1>
+      <div className="min-h-[4rem]">
+        {slide.title && (
+          <h1 className="text-4xl font-bold text-center">{slide.title}</h1>
+        )}
+      </div>
       {content}
     </SlideLayout>
   );

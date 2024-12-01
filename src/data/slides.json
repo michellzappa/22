@@ -76,6 +76,7 @@
             "id": "card-0",
             "type": "card",
             "title": "The Fool",
+            "notes": "Our story begins with the Fool (0), standing at the precipice of existence itself. Dressed in bright clothing that speaks to their innocent nature, they carry a small knapsack containing infinite potential. Their faithful white dog accompanies them, representing both natural instincts and protected guidance. The Fool's eyes gaze upward toward the heavens, feet pointing toward the cliff's edge, embodying the perfect balance between divine inspiration and earthly adventure. The number zero represents both the void from which all things emerge and the unlimited potential that exists before manifestation. Unlike other cards, zero exists outside the numeric sequence, suggesting the Fool's position beyond conventional boundaries. \n The eternal spirit's choice to know itself through experience, standing at the threshold between unity and manifestation. This archetype represents the pure soul before experience, embodying infinite potential and divine innocence, correlating to the Hero archetype at the start of their journey. \n Like Air itself, represents pure potential, freedom, and the unbound spirit ready to take flight into new adventures.",
             "metadata": {
                 "id": 0,
                 "title": "The Fool",
@@ -101,6 +102,7 @@
             "id": "card-1",
             "type": "card",
             "title": "The Magician",
+            "notes": "When the Fool first steps into the world, they encounter the Magician (I), who stands before a table bearing four emblems of power: the wand, cup, sword, and pentacle. With one hand raised toward heaven and the other pointing to earth, the Magician teaches the Fool the first hermetic principle: 'As above, so below.' Through this master of manifestation, the Fool learns that they possess all the elements needed to create their reality. The infinity symbol above the Magician's head suggests mastery over both the material and spiritual realms. \n The matrix of the conscious mind, representing unfettered potential and the pure magical personality that can manifest through will. This archetype embodies the Creator/Manifester, the active principle of conscious creation and the bridge between divine and earthly power. \n Quick and versatile like Mercury, the communicator who bridges worlds and transforms ideas into reality.",
             "metadata": {
                 "id": 1,
                 "title": "The Magician",
@@ -133,6 +135,7 @@
             "id": "card-2",
             "type": "card",
             "title": "The High Priestess",
+            "notes": "The High Priestess (II) appears as a counterpoint to the Magician's active force. Seated between the black and white pillars of duality—Boaz and Jachin—she guards the entrance to the deeper mysteries. Her scroll of sacred knowledge is partially hidden, teaching the Fool that wisdom comes not just through doing, but through patience and receptivity. The crescent moon at her feet speaks to her connection with the unconscious realm and intuitive knowledge. \n The unconscious mind acting as catalyst, bringing forth that which is unknown into conscious awareness. This archetype represents the Wise Woman/Oracle, keeper of mysteries and intuitive knowledge, symbolizing the depths of wisdom that lie beneath conscious understanding. \n Mysterious and cyclical like the Moon, reflecting hidden wisdom and intuitive understanding.",
             "metadata": {
                 "id": 2,
                 "title": "The High Priestess",
@@ -164,6 +167,7 @@
             "id": "card-3",
             "type": "card",
             "title": "The Empress",
+            "notes": "The Empress (III) welcomes the Fool into her lush garden, where every form of life flourishes under her care. Crowned with twelve stars representing her dominion over the natural world and the yearly cycle, she embodies the principle of divine feminine creation. Through her, the Fool experiences the abundance of nature, the joy of creativity, and the power of unconditional love. She teaches that all growth requires nurturing and that beauty itself is a necessary part of life. \n The catalyst meeting matrix creates transformation, birthing new understanding through the feminine creative principle. This archetype embodies the Great Mother, representing nurturing abundance, fertility, and the creative force that brings potential into being. \n Nurturing and beautiful like Venus, embodying creativity, fertility, and abundant growth.",
             "metadata": {
                 "id": 3,
                 "title": "The Empress",
@@ -196,6 +200,7 @@
             "id": "card-4",
             "type": "card",
             "title": "The Emperor",
+            "notes": "The Emperor (IV), seated on his cubic throne adorned with rams' heads, demonstrates the power of ordered creation. His position, structured and immovable, shows the Fool how divine inspiration must be grounded in practical reality. Through him, the Fool learns about leadership, authority, and the responsibility of bringing ideas into concrete form. The barren mountains behind him reveal that mastery often requires difficult choices and discipline. \n The crystallization of learned concepts into structured understanding and mastery over mental processes. This archetype represents the Great Father/King archetype, symbolizing authority, structure, and the ordering principle that gives form to creative energy. \n Assertive like Aries, establishing structure and authority through pioneering leadership.",
             "metadata": {
                 "id": 4,
                 "title": "The Emperor",
@@ -228,6 +233,7 @@
             "id": "card-5",
             "type": "card",
             "title": "The Hierophant",
+            "notes": "The Hierophant (V), also known as the High Priest, bridges heaven and earth through tradition and teaching. Seated between two pillars different from those of the High Priestess, he represents organized spiritual wisdom and conventional education. The Fool learns that before one can transcend the rules, one must first understand them. The crossed keys at his feet symbolize the balance between conscious and unconscious understanding, lockings and unlockings of mystery. \n The self-aware mind complex in its entirety, representing both conscious and unconscious aspects unified. This archetype embodies the Teacher/Priest, the bridge between divine wisdom and human understanding, representing tradition and spiritual guidance. \n Grounded like Taurus, providing stable traditions and earthly wisdom.",
             "metadata": {
                 "id": 5,
                 "title": "The Hierophant",
@@ -260,6 +266,7 @@
             "id": "card-6",
             "type": "card",
             "title": "The Lovers",
+            "notes": "In the Lovers (VI), the Fool faces their first major crossroads. An angel blesses the scene from above, while a man stands between two women, or in some traditions, between virtue and vice. This card transcends simple romantic choice—it represents all major life decisions and the integration of opposing parts of the self. The Fool learns about relationships, duality, and the necessity of making conscious choices in alignment with their higher self. \n The process of conscious choice in integrating experiences and polarizing consciousness. This archetype represents the Divine Union of opposites, symbolizing not just romantic love but the integration of all dualities within the self. \n Dualistic like Gemini, representing choices, relationships, and the integration of opposites.",
             "metadata": {
                 "id": 6,
                 "title": "The Lovers",
@@ -292,6 +299,7 @@
             "id": "card-7",
             "type": "card",
             "title": "The Chariot",
+            "notes": "The Chariot (VII) represents the Fool's first major triumph over the material world. The charioteer stands firm in their vessel, directing black and white sphinxes or horses that pull in different directions. Through will and mastery, opposing forces are harnessed toward a single purpose. The Fool learns that victory requires both control and forward momentum, and that apparent contradictions can be unified through higher understanding. \n The achievement of mental discipline and the balanced use of the mind complex. This archetype embodies the Warrior/Conqueror, representing triumph through willpower and the mastery of opposing forces within consciousness. \n Protective like Cancer, moving forward while maintaining emotional security.",
             "metadata": {
                 "id": 7,
                 "title": "The Chariot",
@@ -324,6 +332,7 @@
             "id": "card-8",
             "type": "card",
             "title": "Justice",
+            "notes": "Justice (VIII), holding scales and a sword, teaches the Fool about universal law and equilibrium. Every action generates consequences, and true justice balances mercy with necessity. The Fool learns about karma, cause and effect, and the importance of making balanced decisions. The double-edged sword shows that justice cuts both ways, while the scales remind us that all actions must eventually find their equilibrium. \n The foundation of physical experience through the law of cause and effect in material reality. This archetype represents the Judge/Balance-keeper, embodying universal law, karma, and the equilibrium necessary for all manifestation. \n Balanced like Libra, weighing actions and consequences with careful deliberation.",
             "metadata": {
                 "id": 8,
                 "title": "Justice",
@@ -355,6 +364,7 @@
             "id": "card-9",
             "type": "card",
             "title": "The Hermit",
+            "notes": "The Hermit (IX) stands alone on a snowy peak, holding high a lantern containing a six-pointed star. Having learned about the external world, the Fool now turns inward for deeper wisdom. The Hermit's lantern represents both the light of truth and the inner wisdom that can only be found in solitude. His staff shows that spiritual seeking requires support and discipline. \n The solitary experiences that catalyze physical understanding and self-awareness. This archetype embodies the Sage/Seeker, representing the inner quest for wisdom and the illumination that comes through solitary contemplation. \n Detail-oriented like Virgo, seeking perfection through solitary analysis.",
             "metadata": {
                 "id": 9,
                 "title": "The Hermit",
@@ -386,6 +396,7 @@
             "id": "card-10",
             "type": "card",
             "title": "The Wheel of Fortune",
+            "notes": "The Wheel of Fortune (X) introduces the Fool to the cycles of existence. The wheel turns eternally, carrying symbols of creation and change. Four creatures of manifestation—the angel, eagle, lion, and bull—study sacred texts at each corner, while the sphinx maintains balance at the top. The Fool learns that all conditions are temporary and that true wisdom lies in finding the still point at the center of life's turning wheel. \n The shifting circumstances of physical existence that transform our understanding of material reality. This archetype represents the Cosmic Wheel, embodying the cycles of fate, time, and the eternal dance of change in the universe. \n Expansive like Jupiter, bringing cycles of opportunity and growth",
             "metadata": {
                 "id": 10,
                 "title": "The Wheel of Fortune",
@@ -417,6 +428,7 @@
             "id": "card-11",
             "type": "card",
             "title": "Strength",
+            "notes": "Strength (XI), traditionally depicting a woman gently closing the mouth of a lion, reveals that true power comes through patience and inner force rather than external dominance. The infinity symbol above the woman's head mirrors that of the Magician, showing mastery of a different kind. The Fool learns that the greatest strength lies in gentleness and that the wildest forces within and without can be transformed through understanding and compassion. \n The mastery over physical limitations through understanding of mind over matter. This archetype represents the Divine Feminine Power, showing mastery through gentle persuasion rather than force, symbolizing spiritual strength over brute force. \n Powerful like Leo, mastering raw energy through gentle courage.",
             "metadata": {
                 "id": 11,
                 "title": "Strength",
@@ -448,6 +460,7 @@
             "id": "card-12",
             "type": "card",
             "title": "The Hanged Man",
+            "notes": "The Hanged Man (XII) shows a figure suspended upside down, yet his face is peaceful. Through voluntary surrender, the Fool learns to see from a completely different perspective. The tree of sacrifice is living wood, and the hanged one's nimbus suggests enlightenment through inversion. The Fool learns that some forms of progress require conscious surrender and that what seems like sacrifice might actually be liberation. \n The physical vehicle in surrender to higher understanding, representing sacrifice of comfort for growth. This archetype embodies the Willing Sacrifice, representing suspension between worlds and the wisdom gained through surrendering to a higher perspective. \n Fluid like Water, surrendering to gain new perspectives.",
             "metadata": {
                 "id": 12,
                 "title": "The Hanged Man",
@@ -479,6 +492,7 @@
             "id": "card-13",
             "type": "card",
             "title": "Death",
+            "notes": "Death (XIII) appears as the ultimate transformer. The skeleton knight rides forth unstoppable, carrying a black banner bearing the mystic rose of life. This card teaches the Fool that true transformation requires the death of the old to make way for the new. Kings and paupers alike fall before Death, but in the background, the sun rises between two towers, promising renewal after ending. \n The continuous transformation of the physical form and release of old patterns. This archetype represents the Transformer, symbolizing not just physical death but the necessary endings that precede all new beginnings. \n Transformative like Scorpio, representing profound endings and beginnings.",
             "metadata": {
                 "id": 13,
                 "title": "Death",
@@ -510,6 +524,7 @@
             "id": "card-14",
             "type": "card",
             "title": "Temperance",
+            "notes": "Temperance (XIV) shows an angel with one foot in water (emotion) and one on land (material reality), pouring liquid between two cups in an endless flow. After the radical transformation of Death, the Fool learns to create a new synthesis of their being. This card teaches the art of balanced combination, finding the middle path between extremes, and the conscious integration of opposites. \n The achievement of balance between all aspects of physical existence. This archetype represents the Alchemist, showing the art of blending opposing forces into harmony and the tempering of extremes into perfect balance. \n Philosophical like Sagittarius, seeking balance and higher understanding.",
             "metadata": {
                 "id": 14,
                 "title": "Temperance",
@@ -541,6 +556,7 @@
             "id": "card-15",
             "type": "card",
             "title": "The Devil",
+            "notes": "The Devil (XV) confronts the Fool with their own limitations and attachments. The figures chained to the Devil's pedestal wear loose bonds they could easily escape, teaching that our greatest restrictions are self-imposed. Through this encounter, the Fool learns to recognize their own shadow and the patterns that keep them bound to lower aspects of their nature. \n The foundation of spiritual experience through confronting limitations and attachments. This archetype represents the Shadow/Tempter, showing the illusions and attachments that bind us, but also the power that comes from facing our darker aspects. \n Ambitious like Capricorn, dealing with material bondage and earthly temptations.",
             "metadata": {
                 "id": 15,
                 "title": "The Devil",
@@ -572,6 +588,7 @@
             "id": "card-16",
             "type": "card",
             "title": "The Tower",
+            "notes": "The Tower (XVI) arrives with lightning force, shattering false structures and illuminating truth with divine fire. Figures fall from the crown of their artificial certainties. This sudden upheaval, though frightening, liberates the Fool from structures that no longer serve their growth. The crown falling represents the overthrow of false concepts of mastery and ego-based understanding. \n The sudden revelations and upheavals that catalyze spiritual awakening. This archetype represents Divine Intervention/Awakening, symbolizing the destruction of false structures and the lightning flash of truth that breaks through illusion. \n Explosive like Mars, bringing sudden change and breakthrough.",
             "metadata": {
                 "id": 16,
                 "title": "The Tower",
@@ -603,6 +620,7 @@
             "id": "card-17",
             "type": "card",
             "title": "The Star",
+            "notes": "The Star (XVII) brings healing after destruction. A naked figure kneels by a pool, pouring water both onto land and into water, representing the distribution of spiritual and material nourishment. Eight stars shine above, with one great star dominant, suggesting divine guidance and inspiration. The Fool learns that after great trials comes renewal, and that hope is always present even in the darkest times. \n The transformation of faith and hope through connection to infinite intelligence. This archetype represents the Celestial Guide, embodying hope, inspiration, and the divine guidance that remains after illumination. \n Innovative like Aquarius, offering hope and inspired vision.",
             "metadata": {
                 "id": 17,
                 "title": "The Star",
@@ -634,6 +652,7 @@
             "id": "card-18",
             "type": "card",
             "title": "The Moon",
+            "notes": "The Moon (XVIII) leads the Fool through the realm of night and the unconscious. A path winds between two towers, past a dog and wolf howling at the moon, leading to distant mountains. A crayfish emerges from the pool of the unconscious. Through this card, the Fool navigates their deepest fears and illusions, learning to trust their intuition while passing through uncertainty and confusion. \n The deep unconscious journey through spiritual understanding. This archetype represents the Dreamweaver/Night Journey, symbolizing the path through the unconscious realm and the facing of deep fears and illusions. \n Deep like Pisces, navigating the waters of dreams and unconscious.",
             "metadata": {
                 "id": 18,
                 "title": "The Moon",
@@ -665,6 +684,7 @@
             "id": "card-19",
             "type": "card",
             "title": "The Sun",
+            "notes": "The Sun (XIX) breaks through with absolute clarity and joy. A child rides a white horse under the radiant sun, while sunflowers turn toward the light. This represents the Fool's true self emerging in its authentic nature, free from artifice or fear. Four sunflowers represent the integration of the four elements first introduced by the Magician, now fully realized. \n The fully awakened spiritual complex radiating its true nature. This archetype represents Divine Child/Illuminated Self, showing the radiant truth of our being when all shadows have been integrated. \n Radiant like its planetary namesake, bringing clarity, joy, and illumination.",
             "metadata": {
                 "id": 19,
                 "title": "The Sun",
@@ -696,6 +716,7 @@
             "id": "card-20",
             "type": "card",
             "title": "Judgement",
+            "notes": "Judgment (XX) sounds it's trumpet call, awakening the Fool to their highest purpose. Figures rise from coffins in response to an angel's call, representing resurrection and awakening to a higher state of consciousness. The Fool recognizes their true calling and understands how all previous experiences have prepared them for this moment of revelation. \n The final integration of spiritual lessons and resurrection of consciousness. This archetype represents Cosmic Awakening, symbolizing the call to higher purpose and the resurrection of the spirit into full awareness. \n Rising like Fire, representing spiritual awakening and transformation.",
             "metadata": {
                 "id": 20,
                 "title": "Judgement",
@@ -727,6 +748,7 @@
             "id": "card-21",
             "type": "card",
             "title": "The World",
+            "notes": "Finally, in the World (XXI), the Fool achieves completion and wholeness. A dancing figure within a wreath holds wands of power, while the four figures from the Wheel of Fortune card observe from the corners. This represents the perfect integration of all elements and experiences into a conscious whole. The dance suggests that completion is not static but a dynamic balance of all possibilities. \n The completion of the cycle of experience and return to unity while maintaining individuality. This archetype represents Cosmic Completion/Divine Dancer, showing the integration of all elements and the mastery of all planes of existence while remaining in joyful motion. \n Bounded like Saturn, completing cycles with mastery and integration.",
             "metadata": {
                 "id": 21,
                 "title": "The World",
@@ -757,7 +779,8 @@
         {
             "id": "outro-01",
             "type": "outro",
-            "title": "The Eternal Cycle"
+            "title": "The Eternal Cycle",
+            "notes": "Yet this ending is also a beginning, for the Fool now understands that existence moves in spirals, not circles. Having completed one cycle, they prepare to begin another at a higher level of understanding. The journey represents not just personal growth but the soul's eternal dance through existence, each completion leading to a new beginning, each mastery opening the door to deeper mysteries. \n The beauty of the Fool's Journey lies in its universal application—it is simultaneously the hero's journey of mythology, the alchemical transformation of consciousness, and the spiritual quest for enlightenment. Each of us is the Fool, eternally stepping out in faith, learning life's lessons, facing challenges, and discovering our own divine nature through the endless cycles of experience and understanding."
         },
         {
             "id": "outro-02",
@@ -787,7 +810,8 @@
         {
             "id": "outro-07",
             "type": "outro",
-            "title": "As Above So Below"
+            "title": " ",
+            "notes": "The Macrocosm and Microcosm: The phrase As Above, So Below is often used to express the interconnectedness of the universe. This principle suggests that the same patterns and laws that govern the cosmos (the Above) are reflected in the individual human being (the Below). You can use this slide to highlight how the journey through the Major Arcana, representing the Fool's path to enlightenment, mirrors the larger journey of the soul through the universe. \n The Inner and Outer Worlds: The mirrored image of the forest can symbolize the reflection of the inner world (thoughts, emotions, and experiences) in the outer world (actions, relationships, and circumstances). You could emphasize that self-knowledge and transformation occur on both an internal and external level. The journey of the Fool is not merely a symbolic one but a process of actively shaping one's life and reality. \n The Integration of Opposites: The concept of As Above, So Below also suggests the integration of opposites, such as light and darkness, masculine and feminine, spirit and matter. The Tarot itself embodies this principle, with cards representing a spectrum of human experiences and archetypes. You can discuss how the Fool's journey involves confronting and integrating these polarities to achieve wholeness and balance."
         },
         {
             "id": "outro-08",

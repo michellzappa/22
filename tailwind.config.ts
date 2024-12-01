@@ -15,7 +15,7 @@ export default {
         'button-hover': '#3A3A3A',
       },
       fontFamily: {
-        serif: ['Georgia', 'serif'],
+        serif: ['Lora', 'serif'],
         sans: ['system-ui', 'sans-serif'],
       },
       animation: {

@@ -1,19 +1,14 @@
 import { FC } from "react";
+import FlowerOfLife from "../FlowerOfLife";
 
-const Introduction: FC = () => {
+const Outro09: FC = () => {
   return (
-    <div className="space-y-6">
-      <p className="text-xl">
-        Welcome to our exploration of the Tarot's major arcana. This journey
-        will take us through 22 cards that represent universal aspects of human
-        experience.
-      </p>
-      <p className="text-xl">
-        Each card tells a story, and together they form a complete narrative of
-        psychological and spiritual development.
-      </p>
+    <div className="absolute inset-0 flex items-center justify-center">
+      <div>
+        <FlowerOfLife />
+      </div>
     </div>
   );
 };
 
-export default Introduction;
+export default Outro09;

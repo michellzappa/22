@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        serif: ['Georgia', 'serif'],
+        serif: ['Lora', 'serif'],
         sans: ['system-ui', 'sans-serif'],
       },
       colors: {

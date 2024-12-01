@@ -13,7 +13,11 @@ export default {
         foreground: '#F5F5F5',
         'button-bg': '#2A2A2A',
         'button-hover': '#3A3A3A',
-      }
+      },
+      fontFamily: {
+        serif: ['Georgia', 'serif'],
+        sans: ['system-ui', 'sans-serif'],
+      },
     },
   },
   plugins: [],

@@ -1,19 +1,35 @@
-import { FC } from "react";
+import { GeometricPattern } from "../GeometricPattern";
 
-const Introduction: FC = () => {
+const IntroSlide01: React.FC = () => {
   return (
-    <div className="space-y-6">
-      <p className="text-xl">
-        Welcome to our exploration of the Tarot's major arcana. This journey
-        will take us through 22 cards that represent universal aspects of human
-        experience.
-      </p>
-      <p className="text-xl">
-        Each card tells a story, and together they form a complete narrative of
-        psychological and spiritual development.
-      </p>
+    <div className="flex flex-col items-center justify-center w-full h-full bg-background text-foreground">
+      <div className="max-w-[90%] w-full space-y-4 text-center">
+        <h1 className="text-5xl font-serif tracking-wide mb-2">
+          The Architecture of the Self
+        </h1>
+
+        <div className="w-2/5 mx-auto my-2">
+          <GeometricPattern />
+        </div>
+
+        <div className="space-y-2">
+          <h2 className="text-2xl text-gray-400 font-light tracking-wide">
+            Personal development through Tarot & Jungian archetypes.
+          </h2>
+        </div>
+
+        <div className="text-xl text-gray-500">
+          <p>
+            Michell Zappa –{" "}
+            {new Intl.DateTimeFormat("en-US", {
+              month: "short",
+              year: "numeric",
+            }).format(new Date())}
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
 
-export default Introduction;
+export default IntroSlide01;

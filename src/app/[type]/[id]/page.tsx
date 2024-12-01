@@ -74,10 +74,9 @@ export default function SlidePage({
         { ssr: true }
       );
       content = (
-        <div className="flex flex-col gap-4">
-          <h1 className="text-4xl font-bold">{slide.title}</h1>
-          <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
-            <div className="absolute top-0 left-0 w-full h-full border-2 border-gray-500">
+        <div className="flex flex-col gap-4 w-full">
+          <div className="relative w-full aspect-video">
+            <div className="absolute inset-0">
               <SlideComponent />
             </div>
           </div>
